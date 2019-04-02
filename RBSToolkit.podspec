@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'RBSToolkit'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of RBSToolkit.'
+  s.summary          = 'A foundatation iOS framework of RBSToolkit.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -26,9 +26,9 @@ TODO: Add long description of the pod here.
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'rbbtsn0w' => 'hamiltonsnow@gmail.com' }
   s.source           = { :git => 'https://github.com/rbbtsn0w/RBSToolkit.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.social_media_url = 'https://twitter.com/RbBtSn0w'
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '7.0'
 
   s.source_files = 'RBSToolkit/Classes/**/*'
   

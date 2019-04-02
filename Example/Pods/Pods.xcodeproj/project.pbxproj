@@ -7,12 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2119A66C2CA11E34BC75EA79C4C5CF0D /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 36EC5F26311E97652306823AB898BC6D /* ReplaceMe.m */; };
 		2EF51C288011F4C3F347FFEE0D7476B9 /* Pods-RBSToolkit_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2ED33CF6497B5F199B49322DE75C547A /* Pods-RBSToolkit_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		38618A7D65E4810458107699D389381B /* Pods-RBSToolkit_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5279C3E872B8F6D882FC4624F02D6C09 /* Pods-RBSToolkit_Tests-dummy.m */; };
 		5E680E638522F45E2520955D3909FCAB /* RBSToolkit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CDECFF546A7C6E89298B057C97764798 /* RBSToolkit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8373496AA2C78696E57EADC0AF9E1FFB /* Pods-RBSToolkit_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 19B75FAF82E4715D54AB00544C9054C7 /* Pods-RBSToolkit_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		84767EFA965D4BAF38D8A6C4268E7DF7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		B17BF761225345E600A6E2C5 /* RBSCGTool.h in Headers */ = {isa = PBXBuildFile; fileRef = B17BF75B2253455E00A6E2C5 /* RBSCGTool.h */; };
 		CB97461A7ABAA5F6B8EA6E54AA027AF0 /* Pods-RBSToolkit_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F9555AD7CF6007BB80413B921BAA8550 /* Pods-RBSToolkit_Example-dummy.m */; };
 		DF8AD72FC02E359DCDDDDAB7603D638A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
 		F2EFF5135B7CCD4D5788F4C7DA47DE96 /* RBSToolkit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E1BE91AC17CA60177CDBD81EC353C3FF /* RBSToolkit-dummy.m */; };
@@ -48,7 +48,6 @@
 		2ED33CF6497B5F199B49322DE75C547A /* Pods-RBSToolkit_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RBSToolkit_Tests-umbrella.h"; sourceTree = "<group>"; };
 		32513F42BAEA2F9EB0685C70DD4AC1AE /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		35F38564B00459272D1AD2C3AE0ABC2B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		36EC5F26311E97652306823AB898BC6D /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = RBSToolkit/Classes/ReplaceMe.m; sourceTree = "<group>"; };
 		3CD526484230D78803252173C92EDC57 /* Pods-RBSToolkit_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RBSToolkit_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		4331CD8260CF1D7A1C244A2FD789B6C1 /* Pods-RBSToolkit_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RBSToolkit_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		451435A70F9E6A1B71600FBF7C4F5AFB /* Pods-RBSToolkit_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RBSToolkit_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
@@ -63,7 +62,7 @@
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9912D1512EF21A59C2B11DD7704B6F41 /* Pods-RBSToolkit_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RBSToolkit_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		A1380620CB0A1E7721C0A151AF1401F5 /* Pods-RBSToolkit_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RBSToolkit_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		B17BF75A2253438900A6E2C5 /* RBSCGTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RBSCGTool.h; sourceTree = "<group>"; };
+		B17BF75B2253455E00A6E2C5 /* RBSCGTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RBSCGTool.h; path = RBSToolkit/Classes/RBSCGTool.h; sourceTree = "<group>"; };
 		BF67E875CC95081606C7FD668EBFF525 /* Pods-RBSToolkit_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RBSToolkit_Example-resources.sh"; sourceTree = "<group>"; };
 		C93EE10EA95B0D016F123F0583F2D0C9 /* Pods_RBSToolkit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RBSToolkit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDECFF546A7C6E89298B057C97764798 /* RBSToolkit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RBSToolkit-umbrella.h"; sourceTree = "<group>"; };
@@ -124,10 +123,9 @@
 		24930B61E2C2B634683D30E1A6ACEA15 /* RBSToolkit */ = {
 			isa = PBXGroup;
 			children = (
-				36EC5F26311E97652306823AB898BC6D /* ReplaceMe.m */,
+				B17BF75B2253455E00A6E2C5 /* RBSCGTool.h */,
 				6508C95504D1F00715017AD4A0A2F450 /* Pod */,
 				9719C61AE895A90BF9C59F6EED7EF7F4 /* Support Files */,
-				B17BF75A2253438900A6E2C5 /* RBSCGTool.h */,
 			);
 			name = RBSToolkit;
 			path = ../..;
@@ -253,6 +251,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5E680E638522F45E2520955D3909FCAB /* RBSToolkit-umbrella.h in Headers */,
+				B17BF761225345E600A6E2C5 /* RBSCGTool.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -355,7 +354,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				F2EFF5135B7CCD4D5788F4C7DA47DE96 /* RBSToolkit-dummy.m in Sources */,
-				2119A66C2CA11E34BC75EA79C4C5CF0D /* ReplaceMe.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
