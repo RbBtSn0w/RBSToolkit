@@ -1,6 +1,0 @@
-framework module RBSToolkit {
-  umbrella header "RBSToolkit-umbrella.h"
-
-  export *
-  module * { export * }
-}
