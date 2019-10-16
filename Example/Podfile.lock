@@ -1,5 +1,5 @@
 PODS:
-  - RBSToolkit (0.1.0)
+  - RBSToolkit (0.0.1)
 
 DEPENDENCIES:
   - RBSToolkit (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  RBSToolkit: 7c6c4435f48bbf7c42a7cc78794cf325f8ca07cd
+  RBSToolkit: 47e44d9512f14a560bba9295a1db827ae413dcb6
 
 PODFILE CHECKSUM: 220309b1e17c1bb76e7c048ad76cbbaabe885afe
 
