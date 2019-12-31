@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
     #***************Root Specification*****************************#
     
   s.name             = 'RBSToolkit'
-  s.version          = '0.0.5'
+  s.version          = '0.0.6'
   s.summary          = 'A foundatation iOS framework of RBSToolkit.'
 
 # This description is used to generate tags and improve search results.
