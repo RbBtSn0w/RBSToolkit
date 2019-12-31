@@ -7,6 +7,9 @@
 #
 
 Pod::Spec.new do |s|
+    
+    #***************Root Specification*****************************#
+    
   s.name             = 'RBSToolkit'
   s.version          = '0.0.5'
   s.summary          = 'A foundatation iOS framework of RBSToolkit.'
@@ -28,15 +31,24 @@ TODO: Add long description of the pod here.
   s.source           = { :git => 'https://github.com/rbbtsn0w/RBSToolkit.git', :tag => s.version.to_s }
   s.social_media_url = 'https://twitter.com/RbBtSn0w'
 
-  s.ios.deployment_target = '7.0'
+  s.static_framework = true
+  
+  #***************Platform*****************************#
 
+  s.ios.deployment_target = '7.0'
+  
+  #***************File patterns*****************************#
   s.source_files = 'RBSToolkit/Classes/**/*'
   
   # s.resource_bundles = {
   #   'RBSToolkit' => ['RBSToolkit/Assets/*.png']
   # }
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
+  s.public_header_files = 'RBSToolkit/Classes/**/*.h'
+  
+  #***************Build settings*****************************#
+   s.module_name = 'RBSToolkit'
+   
+   s.frameworks = 'UIKit', 'CoreGraphics'
+   
   # s.dependency 'AFNetworking', '~> 2.3'
 end
