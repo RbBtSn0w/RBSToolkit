@@ -52,8 +52,7 @@ TODO: Add long description of the pod here.
   s.public_header_files = 'RBSToolkit/Classes/**/*.h'
   
   #***************Build settings*****************************#
-   s.module_name = 'RBSToolkit'
-   
+   s.prefix_header_file = false
    s.frameworks = 'UIKit', 'CoreGraphics', 'Foundation'
    
   # s.dependency 'AFNetworking', '~> 2.3'
