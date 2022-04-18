@@ -1,9 +1,16 @@
-use_frameworks!
+install! 'cocoapods',
+:generate_multiple_pod_projects => true,
+:incremental_installation => true,
+:share_schemes_for_development_pods => true
 
-platform :ios, '8.0'
+use_frameworks! :linkage => :static
+
+use_modular_headers!
+
+platform :ios, '9.0'
 
 target 'RBSToolkit_Example' do
-  pod 'RBSToolkit', :path => '../'
+  pod 'RBSToolkit', :path => '../', :shared => true
 
   target 'RBSToolkit_Tests' do
     inherit! :search_paths

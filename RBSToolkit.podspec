@@ -35,7 +35,7 @@ TODO: Add long description of the pod here.
   
   #***************Platform*****************************#
 
-  s.ios.deployment_target = '7.0'
+  s.ios.deployment_target = '9.0'
   
   #***************File patterns*****************************#
   s.source_files = 'RBSToolkit/Classes/**/*'
@@ -43,12 +43,18 @@ TODO: Add long description of the pod here.
   # s.resource_bundles = {
   #   'RBSToolkit' => ['RBSToolkit/Assets/*.png']
   # }
+  
+  
+  s.pod_target_xcconfig = {
+      'GCC_TREAT_WARNINGS_AS_ERRORS' => 'YES',
+  }
+
   s.public_header_files = 'RBSToolkit/Classes/**/*.h'
   
   #***************Build settings*****************************#
    s.module_name = 'RBSToolkit'
    
-   s.frameworks = 'UIKit', 'CoreGraphics'
+   s.frameworks = 'UIKit', 'CoreGraphics', 'Foundation'
    
   # s.dependency 'AFNetworking', '~> 2.3'
 end

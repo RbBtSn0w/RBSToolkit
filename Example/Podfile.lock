@@ -1,5 +1,5 @@
 PODS:
-  - RBSToolkit (0.0.5)
+  - RBSToolkit (0.0.6)
 
 DEPENDENCIES:
   - RBSToolkit (from `../`)
@@ -7,12 +7,11 @@ DEPENDENCIES:
 EXTERNAL SOURCES:
   RBSToolkit:
     :path: "../"
+    :shared: true
 
 SPEC CHECKSUMS:
-  RBSToolkit: 99d6991738fb1c1cb14ecb4d5f5e1c964d27e139
+  RBSToolkit: 8c35dbd55b15ebbbd125f26f9378a163c8f54586
 
-PODFILE CHECKSUM: 220309b1e17c1bb76e7c048ad76cbbaabe885afe
+PODFILE CHECKSUM: f3d6dca8a392b4a175779b1e38479418c7bce93c
 
-COCOAPODS: 1.8.4
-
-COCOAPODS DEPLOY: 0.0.11
+COCOAPODS: 1.11.3
