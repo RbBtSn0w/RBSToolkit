@@ -1,0 +1,460 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		10B2FEA1BD329A102A9DD8544C1F0D4F /* UIImageView+RBSTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A23EAF0C9E9BCB52A13CD5817E0CFDC /* UIImageView+RBSTool.m */; };
+		2C5567AEA4E460F69E1FC2B2AE9CC20A /* UILabel+RBSTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 030FE2A34F5407B414F37AEEAE879542 /* UILabel+RBSTool.m */; };
+		5B2E95BBCF3F395EE99FD14146100C6D /* NSNumber+RBSNumber.h in Headers */ = {isa = PBXBuildFile; fileRef = 6742CC360484B6677C0C47B6047E36E8 /* NSNumber+RBSNumber.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5F9BCAFF1FB382FF9C1E3AC4FBBBEBCC /* RBSWeakProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = F78522B361CC36F8F44188F88E6113A5 /* RBSWeakProxy.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6AA1510700EDD3D3EF62702F70AE324A /* NSBundle+RBSTool.h in Headers */ = {isa = PBXBuildFile; fileRef = 06D0591B2899CA1D034D2A24AD4D6B22 /* NSBundle+RBSTool.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6E243DE8C564027C7C6432607B36FBF5 /* RBSToolkit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C46AD609E6FB4267932897291442AD3 /* RBSToolkit-dummy.m */; };
+		7AFFF9A868F35F8CFFEA74B7638D74E1 /* RBSToolkit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BAEE1F4582BB671D440005FB4F0353A0 /* RBSToolkit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		88138BCA98FBBC94960DFC3D73C58A80 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 549A681BFD1F18DE19B1E68249843068 /* Foundation.framework */; };
+		A6D7F3F71F74B6FAEFFDCC6F4F287AB8 /* UIImageView+RBSTool.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F763B7000EB4D1EC3F38F630F1EF8C6 /* UIImageView+RBSTool.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B0CB332E439A74B1F0BFA392AC3B77A8 /* UILabel+RBSTool.h in Headers */ = {isa = PBXBuildFile; fileRef = 25FA9CEFC77E4D86BF9082370E7DE752 /* UILabel+RBSTool.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E9DC1BBFB7EB73A0A37508A9D228FC2F /* NSNumber+RBSNumber.m in Sources */ = {isa = PBXBuildFile; fileRef = DAE7AE9AC34F18681A2BE4D5332BA318 /* NSNumber+RBSNumber.m */; };
+		F054EEC5DEAC663BE422F48835082D5D /* RBSLargeActionButton.h in Headers */ = {isa = PBXBuildFile; fileRef = EC962F509D701AC9B4E70BE7C1FA25E3 /* RBSLargeActionButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F1C431F4B6F81411122630F4E6A0EE00 /* RBSLargeActionButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 439A89CFA35AC3E9932AC23967BFB84D /* RBSLargeActionButton.m */; };
+		F388D58E369D1EA8C2841810359AFF43 /* NSBundle+RBSTool.m in Sources */ = {isa = PBXBuildFile; fileRef = E94ADE214BABF832E4769C8644857400 /* NSBundle+RBSTool.m */; };
+		F9E2CE5F31841582D458B9EE71593AFE /* RBSCGTool.h in Headers */ = {isa = PBXBuildFile; fileRef = AE40529A9AE6A8ECADC944E536205DD4 /* RBSCGTool.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FA0B8F41C269DD7D8A77D27A5C0131E9 /* RBSWeakProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = C4E4E5E597167F2EE9407BC7D6F41174 /* RBSWeakProxy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		030FE2A34F5407B414F37AEEAE879542 /* UILabel+RBSTool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UILabel+RBSTool.m"; path = "RBSToolkit/Classes/UILabel+RBSTool.m"; sourceTree = "<group>"; };
+		06D0591B2899CA1D034D2A24AD4D6B22 /* NSBundle+RBSTool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSBundle+RBSTool.h"; path = "RBSToolkit/Classes/NSBundle+RBSTool.h"; sourceTree = "<group>"; };
+		0F763B7000EB4D1EC3F38F630F1EF8C6 /* UIImageView+RBSTool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImageView+RBSTool.h"; path = "RBSToolkit/Classes/UIImageView+RBSTool.h"; sourceTree = "<group>"; };
+		18C8168E7FECA0014F51924CDCCF3860 /* RBSToolkit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "RBSToolkit-Info.plist"; sourceTree = "<group>"; };
+		25FA9CEFC77E4D86BF9082370E7DE752 /* UILabel+RBSTool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UILabel+RBSTool.h"; path = "RBSToolkit/Classes/UILabel+RBSTool.h"; sourceTree = "<group>"; };
+		284DB051931D45A7323D6DCBF8D738AA /* RBSToolkit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RBSToolkit.release.xcconfig; sourceTree = "<group>"; };
+		3151E4CEAAF053DB1AC9E07E586310AB /* RBSToolkit */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = RBSToolkit; path = RBSToolkit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3408FBAACF7D07B42EAC1C574C41E82A /* RBSToolkit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = RBSToolkit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		439A89CFA35AC3E9932AC23967BFB84D /* RBSLargeActionButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RBSLargeActionButton.m; path = RBSToolkit/Classes/RBSLargeActionButton.m; sourceTree = "<group>"; };
+		549A681BFD1F18DE19B1E68249843068 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		6742CC360484B6677C0C47B6047E36E8 /* NSNumber+RBSNumber.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSNumber+RBSNumber.h"; path = "RBSToolkit/Classes/NSNumber+RBSNumber.h"; sourceTree = "<group>"; };
+		6976389BB080B88923E1243FA571C3C9 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		6A23EAF0C9E9BCB52A13CD5817E0CFDC /* UIImageView+RBSTool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImageView+RBSTool.m"; path = "RBSToolkit/Classes/UIImageView+RBSTool.m"; sourceTree = "<group>"; };
+		8C46AD609E6FB4267932897291442AD3 /* RBSToolkit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RBSToolkit-dummy.m"; sourceTree = "<group>"; };
+		96F140F75DA13BAF08AE5F3F79F0167D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		ACF9DB44E5FD4E8A494219D77D96E8AB /* RBSToolkit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RBSToolkit.debug.xcconfig; sourceTree = "<group>"; };
+		AE40529A9AE6A8ECADC944E536205DD4 /* RBSCGTool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RBSCGTool.h; path = RBSToolkit/Classes/RBSCGTool.h; sourceTree = "<group>"; };
+		AE69846093C3BA14178016030219D336 /* RBSToolkit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = RBSToolkit.modulemap; sourceTree = "<group>"; };
+		BAEE1F4582BB671D440005FB4F0353A0 /* RBSToolkit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RBSToolkit-umbrella.h"; sourceTree = "<group>"; };
+		C4E4E5E597167F2EE9407BC7D6F41174 /* RBSWeakProxy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RBSWeakProxy.m; path = RBSToolkit/Classes/RBSWeakProxy.m; sourceTree = "<group>"; };
+		DAE7AE9AC34F18681A2BE4D5332BA318 /* NSNumber+RBSNumber.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSNumber+RBSNumber.m"; path = "RBSToolkit/Classes/NSNumber+RBSNumber.m"; sourceTree = "<group>"; };
+		E94ADE214BABF832E4769C8644857400 /* NSBundle+RBSTool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSBundle+RBSTool.m"; path = "RBSToolkit/Classes/NSBundle+RBSTool.m"; sourceTree = "<group>"; };
+		EC962F509D701AC9B4E70BE7C1FA25E3 /* RBSLargeActionButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RBSLargeActionButton.h; path = RBSToolkit/Classes/RBSLargeActionButton.h; sourceTree = "<group>"; };
+		F78522B361CC36F8F44188F88E6113A5 /* RBSWeakProxy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RBSWeakProxy.h; path = RBSToolkit/Classes/RBSWeakProxy.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BA11D6E02D314546496018C7B92B8E7D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88138BCA98FBBC94960DFC3D73C58A80 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		16F4DD47AE8ACABE644A2E19FFCB73B1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3151E4CEAAF053DB1AC9E07E586310AB /* RBSToolkit */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2410C3960A397E9D8FD6F9EC4365D037 /* RBSToolkit */ = {
+			isa = PBXGroup;
+			children = (
+				06D0591B2899CA1D034D2A24AD4D6B22 /* NSBundle+RBSTool.h */,
+				E94ADE214BABF832E4769C8644857400 /* NSBundle+RBSTool.m */,
+				6742CC360484B6677C0C47B6047E36E8 /* NSNumber+RBSNumber.h */,
+				DAE7AE9AC34F18681A2BE4D5332BA318 /* NSNumber+RBSNumber.m */,
+				AE40529A9AE6A8ECADC944E536205DD4 /* RBSCGTool.h */,
+				EC962F509D701AC9B4E70BE7C1FA25E3 /* RBSLargeActionButton.h */,
+				439A89CFA35AC3E9932AC23967BFB84D /* RBSLargeActionButton.m */,
+				F78522B361CC36F8F44188F88E6113A5 /* RBSWeakProxy.h */,
+				C4E4E5E597167F2EE9407BC7D6F41174 /* RBSWeakProxy.m */,
+				0F763B7000EB4D1EC3F38F630F1EF8C6 /* UIImageView+RBSTool.h */,
+				6A23EAF0C9E9BCB52A13CD5817E0CFDC /* UIImageView+RBSTool.m */,
+				25FA9CEFC77E4D86BF9082370E7DE752 /* UILabel+RBSTool.h */,
+				030FE2A34F5407B414F37AEEAE879542 /* UILabel+RBSTool.m */,
+				BA495659BBF064AD4358A85A8A91778D /* Pod */,
+				C78AAA909C17B28767ABE9E25EA53EEA /* Support Files */,
+			);
+			name = RBSToolkit;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		2671E75923046241FE7D37755A19DC01 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C1AB9F9E291D64B58E6957442748AF88 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BA495659BBF064AD4358A85A8A91778D /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				6976389BB080B88923E1243FA571C3C9 /* LICENSE */,
+				3408FBAACF7D07B42EAC1C574C41E82A /* RBSToolkit.podspec */,
+				96F140F75DA13BAF08AE5F3F79F0167D /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		C1AB9F9E291D64B58E6957442748AF88 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				549A681BFD1F18DE19B1E68249843068 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		C1ECEE06043AEAE67E0938DD6E1F7330 = {
+			isa = PBXGroup;
+			children = (
+				2671E75923046241FE7D37755A19DC01 /* Frameworks */,
+				16F4DD47AE8ACABE644A2E19FFCB73B1 /* Products */,
+				2410C3960A397E9D8FD6F9EC4365D037 /* RBSToolkit */,
+			);
+			sourceTree = "<group>";
+		};
+		C78AAA909C17B28767ABE9E25EA53EEA /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				AE69846093C3BA14178016030219D336 /* RBSToolkit.modulemap */,
+				8C46AD609E6FB4267932897291442AD3 /* RBSToolkit-dummy.m */,
+				18C8168E7FECA0014F51924CDCCF3860 /* RBSToolkit-Info.plist */,
+				BAEE1F4582BB671D440005FB4F0353A0 /* RBSToolkit-umbrella.h */,
+				ACF9DB44E5FD4E8A494219D77D96E8AB /* RBSToolkit.debug.xcconfig */,
+				284DB051931D45A7323D6DCBF8D738AA /* RBSToolkit.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/RBSToolkit";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		BC55D423583FB37166DBEC0E08C28AA4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6AA1510700EDD3D3EF62702F70AE324A /* NSBundle+RBSTool.h in Headers */,
+				5B2E95BBCF3F395EE99FD14146100C6D /* NSNumber+RBSNumber.h in Headers */,
+				F9E2CE5F31841582D458B9EE71593AFE /* RBSCGTool.h in Headers */,
+				F054EEC5DEAC663BE422F48835082D5D /* RBSLargeActionButton.h in Headers */,
+				7AFFF9A868F35F8CFFEA74B7638D74E1 /* RBSToolkit-umbrella.h in Headers */,
+				5F9BCAFF1FB382FF9C1E3AC4FBBBEBCC /* RBSWeakProxy.h in Headers */,
+				A6D7F3F71F74B6FAEFFDCC6F4F287AB8 /* UIImageView+RBSTool.h in Headers */,
+				B0CB332E439A74B1F0BFA392AC3B77A8 /* UILabel+RBSTool.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		FB52A486C8D63E993B12C196720E4DFF /* RBSToolkit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B0D3EC5C4ECEEA55B6CEBC8A6B067FCA /* Build configuration list for PBXNativeTarget "RBSToolkit" */;
+			buildPhases = (
+				BC55D423583FB37166DBEC0E08C28AA4 /* Headers */,
+				F74A8190453FC49CB4CDBEFEB5ACE6B9 /* Sources */,
+				BA11D6E02D314546496018C7B92B8E7D /* Frameworks */,
+				10BF2B97DDB04B3944810C30AD0E16CD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RBSToolkit;
+			productName = RBSToolkit;
+			productReference = 3151E4CEAAF053DB1AC9E07E586310AB /* RBSToolkit */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		749AF2CC87A41EBE26915DC22BCD8BFD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+			};
+			buildConfigurationList = 743185DFFFBDB1632B5911374BCE325D /* Build configuration list for PBXProject "RBSToolkit" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = C1ECEE06043AEAE67E0938DD6E1F7330;
+			productRefGroup = 16F4DD47AE8ACABE644A2E19FFCB73B1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FB52A486C8D63E993B12C196720E4DFF /* RBSToolkit */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		10BF2B97DDB04B3944810C30AD0E16CD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F74A8190453FC49CB4CDBEFEB5ACE6B9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F388D58E369D1EA8C2841810359AFF43 /* NSBundle+RBSTool.m in Sources */,
+				E9DC1BBFB7EB73A0A37508A9D228FC2F /* NSNumber+RBSNumber.m in Sources */,
+				F1C431F4B6F81411122630F4E6A0EE00 /* RBSLargeActionButton.m in Sources */,
+				6E243DE8C564027C7C6432607B36FBF5 /* RBSToolkit-dummy.m in Sources */,
+				FA0B8F41C269DD7D8A77D27A5C0131E9 /* RBSWeakProxy.m in Sources */,
+				10B2FEA1BD329A102A9DD8544C1F0D4F /* UIImageView+RBSTool.m in Sources */,
+				2C5567AEA4E460F69E1FC2B2AE9CC20A /* UILabel+RBSTool.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		3C8CC4285CFFD9A5D4750C8DE048B513 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		4A15A8A984577E4B6B854FEBFA870D72 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 284DB051931D45A7323D6DCBF8D738AA /* RBSToolkit.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/RBSToolkit/RBSToolkit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/RBSToolkit/RBSToolkit.modulemap";
+				PRODUCT_MODULE_NAME = RBSToolkit;
+				PRODUCT_NAME = RBSToolkit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		50A894F2E827131BD5D282E780652156 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ACF9DB44E5FD4E8A494219D77D96E8AB /* RBSToolkit.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/RBSToolkit/RBSToolkit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/RBSToolkit/RBSToolkit.modulemap";
+				PRODUCT_MODULE_NAME = RBSToolkit;
+				PRODUCT_NAME = RBSToolkit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A7039D2EDEB2590609C46BE90991FE6B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		743185DFFFBDB1632B5911374BCE325D /* Build configuration list for PBXProject "RBSToolkit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7039D2EDEB2590609C46BE90991FE6B /* Debug */,
+				3C8CC4285CFFD9A5D4750C8DE048B513 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B0D3EC5C4ECEEA55B6CEBC8A6B067FCA /* Build configuration list for PBXNativeTarget "RBSToolkit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50A894F2E827131BD5D282E780652156 /* Debug */,
+				4A15A8A984577E4B6B854FEBFA870D72 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 749AF2CC87A41EBE26915DC22BCD8BFD /* Project object */;
+}

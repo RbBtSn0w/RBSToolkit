@@ -1,0 +1,17 @@
+PODS:
+  - RBSToolkit (0.0.6)
+
+DEPENDENCIES:
+  - RBSToolkit (from `../`)
+
+EXTERNAL SOURCES:
+  RBSToolkit:
+    :path: "../"
+    :shared: true
+
+SPEC CHECKSUMS:
+  RBSToolkit: 142f168e89956a8020c96ec4d2a509ec5921101c
+
+PODFILE CHECKSUM: f3d6dca8a392b4a175779b1e38479418c7bce93c
+
+COCOAPODS: 1.11.3

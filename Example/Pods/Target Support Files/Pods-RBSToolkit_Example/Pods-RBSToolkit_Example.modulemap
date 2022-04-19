@@ -1,0 +1,6 @@
+framework module Pods_RBSToolkit_Example {
+  umbrella header "Pods-RBSToolkit_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

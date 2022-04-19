@@ -1,0 +1,54 @@
+BUILD_CONFIGURATIONS:
+  Debug: :debug
+  Release: :release
+CACHE_KEYS:
+  Pods-RBSToolkit_Example:
+    BUILD_SETTINGS_CHECKSUM:
+      Debug: 533d17bce5c5934ebf7182664a993f65
+      Release: 533d17bce5c5934ebf7182664a993f65
+  Pods-RBSToolkit_Tests:
+    BUILD_SETTINGS_CHECKSUM:
+      Debug: fcd3be62bf0b2e855159a50cb4df90cd
+      Release: fcd3be62bf0b2e855159a50cb4df90cd
+  RBSToolkit:
+    BUILD_SETTINGS_CHECKSUM:
+      RBSToolkit:
+        :debug: 7d0f82785261c716fc509a5c7eebde03
+        :release: 7d0f82785261c716fc509a5c7eebde03
+    CHECKSUM: 142f168e89956a8020c96ec4d2a509ec5921101c
+    FILES:
+      - "../../LICENSE"
+      - "../../RBSToolkit/Classes/NSBundle+RBSTool.h"
+      - "../../RBSToolkit/Classes/NSBundle+RBSTool.m"
+      - "../../RBSToolkit/Classes/NSNumber+RBSNumber.h"
+      - "../../RBSToolkit/Classes/NSNumber+RBSNumber.m"
+      - "../../RBSToolkit/Classes/RBSCGTool.h"
+      - "../../RBSToolkit/Classes/RBSLargeActionButton.h"
+      - "../../RBSToolkit/Classes/RBSLargeActionButton.m"
+      - "../../RBSToolkit/Classes/RBSWeakProxy.h"
+      - "../../RBSToolkit/Classes/RBSWeakProxy.m"
+      - "../../RBSToolkit/Classes/UIImageView+RBSTool.h"
+      - "../../RBSToolkit/Classes/UIImageView+RBSTool.m"
+      - "../../RBSToolkit/Classes/UILabel+RBSTool.h"
+      - "../../RBSToolkit/Classes/UILabel+RBSTool.m"
+      - "../../README.md"
+    PROJECT_NAME: RBSToolkit
+    SPECS:
+      - RBSToolkit (0.0.6)
+INSTALLATION_OPTIONS:
+  clean: true
+  deduplicate_targets: true
+  deterministic_uuids: true
+  disable_input_output_paths: false
+  generate_multiple_pod_projects: true
+  incremental_installation: true
+  integrate_targets: true
+  lock_pod_sources: true
+  preserve_pod_file_structure: false
+  share_schemes_for_development_pods: true
+  skip_pods_project_generation: false
+  warn_for_multiple_pod_sources: true
+  warn_for_unused_master_specs_repo: true
+OBJECT_VERSION: 55
+PLUGINS:
+  {}
